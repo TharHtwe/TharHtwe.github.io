@@ -1,4 +1,12 @@
-### Hi there 👋
+## Hi there 👋, Thar Htwe here
+A passionate Senior Software Engineer with over 7 years' experience on developing complex software applications and systems using leading-edge technologies.
+- 🔭 I’m currently working as **Full Stacker Developer - Remote**
+- 🛠️ Tech stacks => .NET Framework, WPF, ASP.NET Core, EF, Laravel, Vue.js, NuxtJS, Angular, MS SQL, MySQL
+- 🚀 Some of the Commercial Projects I had worked are Online Fitness System, Accounting Module, Human Resource Management, etc. For more details, please visit [https://tharhtwe.github.io](https://tharhtwe.github.io)
+- 💬 Ask me about **Web and Windows Application Development**
+- 📫 How to reach me:
+  [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/tharhtwe/)](https://www.linkedin.com/in/tharhtwe/)
+[![Gmail Badge](https://img.shields.io/badge/-Gmail-d14836?style=flat-square&logo=Gmail&logoColor=white&link=mail@tharhtwe16492@gmail.com)](mailto:mail@tharhtwe16492@gmail.com)
 
 <!--
 **TharHtwe/TharHtwe** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -13,4 +21,5 @@ Here are some ideas to get you started:
 - 📫 How to reach me: ...
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
+- 🧔 Soft skills => Test Driven Approach
 -->
