@@ -55,6 +55,7 @@ html {
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  scroll-behavior: smooth;
 }
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
@@ -11133,7 +11134,7 @@ p {
 
 .service-card {
   position: relative;
-  min-height: 230px;
+  min-height: 200px;
   border: 1px solid #dee2e6;
   overflow: hidden;
   border-radius: 3px;
@@ -11145,7 +11146,8 @@ p {
 
 .service-card .body img.icon {
   margin-top: 40px;
-  width: 55px;
+  /* width: 55px; */
+  height: 55px;
   margin-bottom: 25px;
   -webkit-transition: all, 0.3s;
   transition: all, 0.3s;
@@ -11174,7 +11176,7 @@ p {
   }
 }
 
-.service-card:hover .body img.icon {
+/* .service-card:hover .body img.icon {
   margin-top: 5px;
   width: 45px;
   margin-bottom: 15px;
@@ -11184,7 +11186,7 @@ p {
   bottom: 7px;
   opacity: 1;
   visibility: visible;
-}
+} */
 
 /*/ portfolio wrapper */
 .portfolio-card {
@@ -12083,7 +12085,7 @@ pre .code {
   -webkit-flex-grow: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
-  max-width: 550px;
+  max-width: 650px;
 }
 
 .header .header-content .header-title .up {
@@ -12232,3 +12234,40 @@ pre .code {
 .section-lg {
   padding: 100px 0 !important;
 }
+
+
+/* Slider */
+@media (max-width: 768px) {
+  .carousel-inner .carousel-item > div {
+      display: none;
+  }
+  .carousel-inner .carousel-item > div:first-child {
+      display: block;
+  }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+  display: flex;
+}
+
+/* display 3 */
+@media (min-width: 768px) {
+  
+  .carousel-inner .carousel-item-right.active,
+  .carousel-inner .carousel-item-next {
+    transform: translateX(25%);
+  }
+  
+  .carousel-inner .carousel-item-left.active, 
+  .carousel-inner .carousel-item-prev {
+    transform: translateX(-25%);
+  }
+}
+
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left{ 
+transform: translateX(0);
+}
+

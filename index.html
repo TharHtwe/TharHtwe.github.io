@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Start your development with Meyawo landing page.">
     <meta name="author" content="Devcrud">
-    <title>Meyawo Landing page | Free Bootstrap 4.3.x landing page</title>
+    <title>Thar Htwe | Portfolio</title>
     <!-- font icons -->
     <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
     <!-- Bootstrap + Meyawo main styles -->
     <link rel="stylesheet" href="assets/css/meyawo.css">
+    <link rel="stylesheet" href="assets/css/timeline.css">
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
@@ -18,7 +19,7 @@
     <!-- Page Navbar -->
     <nav class="custom-navbar" data-spy="affix" data-offset-top="20">
         <div class="container">
-            <a class="logo" href="#">Meyawo</a>
+            <a class="logo" href="#">Thar Htwe</a>
             <ul class="nav">
                 <li class="item">
                     <a class="link" href="#home">Home</a>
@@ -27,20 +28,20 @@
                     <a class="link" href="#about">About</a>
                 </li>
                 <li class="item">
-                    <a class="link" href="#portfolio">Portfolio</a>
+                    <a class="link" href="#skills">Skills</a>
                 </li>
+                <!-- <li class="item">
+                    <a class="link" href="#experience">Experience</a>
+                </li> -->
                 <li class="item">
-                    <a class="link" href="#testmonial">Testmonial</a>
-                </li>
-                <li class="item">
-                    <a class="link" href="#blog">Blog</a>
+                    <a class="link" href="#projects">Projects</a>
                 </li>
                 <li class="item">
                     <a class="link" href="#contact">Contact</a>
                 </li>
-                <li class="item ml-md-3">
+                <!-- <li class="item ml-md-3">
                     <a href="components.html" class="btn btn-primary">Components</a>
-                </li>
+                </li> -->
             </ul>
             <a href="javascript:void(0)" id="nav-toggle" class="hamburger hamburger--elastic">
                 <div class="hamburger-box">
@@ -56,11 +57,11 @@
         <div class="header-content container">
             <h1 class="header-title">
                 <span class="up">HI!</span>
-                <span class="down">I am John Doe</span>
+                <span class="down">I am Thar Htwe</span>
             </h1>
-            <p class="header-subtitle">FRONTEND WEB DESIGNER</p>
+            <p class="header-subtitle">SENIOR SOFTWARE ENGINEER</p>
 
-            <button class="btn btn-primary">Visit My Works</button>
+            <a class="btn btn-primary" href="#projects" role="button">Visit My Projects</a>
         </div>
     </header><!-- end of page header -->
 
@@ -72,326 +73,466 @@
             <div class="about">
                 <div class="about-img-holder">
                     <img src="assets/imgs/man.png" class="about-img"
-                        alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                        alt="Profile Image">
                 </div>
                 <div class="about-caption">
                     <p class="section-subtitle">Who Am I ?</p>
                     <h2 class="section-title mb-3">About Me</h2>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae aliquid ad provident aut
-                        fuga animi soluta quae eos non cupiditate voluptates dolorem, doloremque quos dicta quibusdam
-                        impedit iure nemo a iste
-                        <br>culpa! Quasi quibusdam hic recusandae delectus velit officiis explicabo voluptatibus! Nemo
-                        esse similique, voluptates labore distinctio, placeat explicabo facilis molestias, blanditiis
-                        culpa iusto voluptatem ratione eligendi a, quia temporibus velit vero ipsa sint ex voluptatum
-                        expedita aliquid! Debitis, nam!
+                        A passionate Senior Software Engineer with over 7 years’ experience on designing, developing, testing and maintaining complex software applications and systems using leading-edge technologies.
+                        <br>I am currently looking for a job in a dynamic and innovative organization, where my technical expertise and leadership skills can be utilized to contribute to the company's success.
                     </p>
-                    <button class="btn-rounded btn btn-outline-primary mt-4">Download CV</button>
+                    <a class="btn-rounded btn btn-outline-primary mt-4" href="assets/Thar Htwe-Resume.pdf" download="Thar Htwe-Resume">Download CV</a>
                 </div>
             </div><!-- end of about wrapper -->
         </div><!-- end of container -->
     </section> <!-- end of about section -->
 
-    <!-- service section -->
-    <section class="section" id="service">
+    <!-- skills section -->
+    <section class="section" id="skills">
         <div class="container text-center">
-            <p class="section-subtitle">What I Do ?</p>
-            <h6 class="section-title mb-6">Service</h6>
-            <!-- row -->
-            <div class="row">
-                <div class="col-md-6 col-lg-3">
-                    <div class="service-card">
-                        <div class="body">
-                            <img src="assets/imgs/pencil-case.svg"
-                                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
-                                class="icon">
-                            <h6 class="title">Adipisicing</h6>
-                            <p class="subtitle">Labore velit culpa adipisci excepturi consequuntur itaque in nam
-                                molestias dolorem iste quod.</p>
+            <p class="section-subtitle">What Am I Good At ?</p>
+            <h6 class="section-title mb-5">Skills</h6>
+
+            <div class="row mx-auto my-auto">
+                <div id="recipeCarousel" class="carousel slide w-100" data-ride="carousel">
+                    <div class="carousel-inner w-100" role="listbox">
+                        <div class="carousel-item active">
+                            <div class="col-md-3">
+                                <div class="service-card">
+                                    <div class="body">
+                                        <img src="assets/imgs/netframework.png"
+                                            alt=".NET Framework"
+                                            class="icon">
+                                        <h6 class="title">.NET Framework</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-md-3">
+                                <div class="service-card">
+                                    <div class="body">
+                                        <img src="assets/imgs/netcore.png"
+                                            alt="ASP.NET Core"
+                                            class="icon">
+                                        <h6 class="title">ASP.NET Core</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-md-3">
+                                <div class="service-card">
+                                    <div class="body">
+                                        <img src="assets/imgs/laravel.png"
+                                            alt="Laravel"
+                                            class="icon">
+                                        <h6 class="title">Laravel</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-md-3">
+                                <div class="service-card">
+                                    <div class="body">
+                                        <img src="assets/imgs/wpf.png"
+                                            alt="WPF"
+                                            class="icon">
+                                        <h6 class="title">WPF</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-md-3">
+                                <div class="service-card">
+                                    <div class="body">
+                                        <img src="assets/imgs/ef.svg"
+                                            alt="EF"
+                                            class="icon">
+                                        <h6 class="title">EF</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-md-3">
+                                <div class="service-card">
+                                    <div class="body">
+                                        <img src="assets/imgs/vue.png"
+                                            alt="Vue.js"
+                                            class="icon">
+                                        <h6 class="title">Vue.js</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-md-3">
+                                <div class="service-card">
+                                    <div class="body">
+                                        <img src="assets/imgs/nuxtjs2.png"
+                                            alt="NuxtJS"
+                                            class="icon">
+                                        <h6 class="title">NuxtJS</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-md-3">
+                                <div class="service-card">
+                                    <div class="body">
+                                        <img src="assets/imgs/angular.png"
+                                            alt="Angular"
+                                            class="icon">
+                                        <h6 class="title">Angular</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-md-3">
+                                <div class="service-card">
+                                    <div class="body">
+                                        <img src="assets/imgs/sqlserver.png"
+                                            alt="MS SQL"
+                                            class="icon">
+                                        <h6 class="title">MS SQL</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-md-3">
+                                <div class="service-card">
+                                    <div class="body">
+                                        <img src="assets/imgs/mysql.png"
+                                            alt="MySQL"
+                                            class="icon">
+                                        <h6 class="title">MySQL</h6>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
+                    <a class="carousel-control-prev w-auto" href="#recipeCarousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon bg-dark border border-dark rounded-circle" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next w-auto" href="#recipeCarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon bg-dark border border-dark rounded-circle" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
                 </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="service-card">
-                        <div class="body">
-                            <img src="assets/imgs/responsive.svg"
-                                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
-                                class="icon">
-                            <h6 class="title">Sapiente</h6>
-                            <p class="subtitle">Labore velit culpa adipisci excepturi consequuntur itaque in nam
-                                molestias dolorem iste quod.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="service-card">
-                        <div class="body">
-                            <img src="assets/imgs/toolbox.svg"
-                                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
-                                class="icon">
-                            <h6 class="title">Placeat</h6>
-                            <p class="subtitle">Labore velit culpa adipisci excepturi consequuntur itaque in nam
-                                molestias dolorem iste quod.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3">
-                    <div class="service-card">
-                        <div class="body">
-                            <img src="assets/imgs/analytics.svg"
-                                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page"
-                                class="icon">
-                            <h6 class="title">Iusto</h6>
-                            <p class="subtitle">Labore velit culpa adipisci excepturi consequuntur itaque in nam
-                                molestias dolorem iste quod.</p>
-                        </div>
-                    </div>
-                </div>
-            </div><!-- end of row -->
+            </div>
         </div>
-    </section><!-- end of service section -->
+    </section>
 
-    <!-- portfolio section -->
-    <section class="section" id="portfolio">
+    <!-- experience section 
+    <section class="section" id="experience">
         <div class="container text-center">
-            <p class="section-subtitle">What I Did ?</p>
-            <h6 class="section-title mb-6">Portfolio</h6>
-            <!-- row -->
-            <div class="row">
-                <div class="col-md-4">
-                    <a href="#" class="portfolio-card">
-                        <img src="assets/imgs/folio-1.jpg" class="portfolio-card-img"
-                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
-                        <span class="portfolio-card-overlay">
-                            <span class="portfolio-card-caption">
-                                <h4>Web Designing</h5>
-                                    <p class="font-weight-normal">Category: Web Templates</p>
-                            </span>
-                        </span>
-                    </a>
-                </div>
-                <div class="col-md-4">
-                    <a href="#" class="portfolio-card">
-                        <img class="portfolio-card-img" src="assets/imgs/folio-2.jpg" class="img-responsive rounded"
-                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
-                        <span class="portfolio-card-overlay">
-                            <span class="portfolio-card-caption">
-                                <h4>Web Designing</h5>
-                                    <p class="font-weight-normal">Category: Web Templates</p>
-                            </span>
-                        </span>
-                    </a>
-                </div>
-                <div class="col-md-4">
-                    <a href="#" class="portfolio-card">
-                        <img class="portfolio-card-img" src="assets/imgs/folio-3.jpg" class="img-responsive rounded"
-                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
-                        <span class="portfolio-card-overlay">
-                            <span class="portfolio-card-caption">
-                                <h4>Web Designing</h5>
-                                    <p class="font-weight-normal">Category: Web Templates</p>
-                            </span>
-                        </span>
-                    </a>
-                </div>
-            </div><!-- end of row -->
-        </div><!-- end of container -->
-    </section> <!-- end of portfolio section -->
+            <p class="section-subtitle">My Career Life ?</p>
+            <h6 class="section-title mb-6">Experience</h6>
 
-    <!-- pricing section -->
-    <section class="section" id="pricing">
-        <div class="container text-center">
-            <p class="section-subtitle">How Much I Charge ?</p>
-            <h6 class="section-title mb-6">My Pricing</h6>
-            <!-- row -->
-            <div class="pricing-wrapper">
-                <div class="pricing-card">
-                    <div class="pricing-card-header">
-                        <img class="pricing-card-icon" src="assets/imgs/scooter.svg"
-                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
-                    </div>
-                    <div class="pricing-card-body">
-                        <h6 class="pricing-card-title">Free</h6>
-                        <div class="pricing-card-list">
-                            <p>accusamus reprehenderit</p>
-                            <p>provident dolorem </p>
-                            <p>quos neque</p>
-                            <p>fugiat quibusdam</p>
-                            <p><i class="ti-close"></i></p>
-                            <p><i class="ti-close"></i></p>
+            <div class="main-timeline row">
+
+                <div class="timeline">
+                    <div class="icon"></div>
+                    <div class="date-content">
+                        <div class="date-outer">
+                            <span class="date">
+                                    <span class="month">1 Year</span>
+                            <span class="year">2023</span>
+                            </span>
                         </div>
                     </div>
-                    <div class="pricing-card-footer">
-                        <span>$</span>
-                        <span>0.00/Month</span>
+                    <div class="timeline-content">
+                        <h5 class="title mb-1">Full Stack Developer - Remote</h5>
+                        <dl class="mb-1">
+                            <dt class="mb-1"><a href="https://www.haulio.io" target="_blank">Haulio Pte. Ltd </a><span style="font-weight: 400;">Jul 2023 - Present</span></dt>
+                        </dl>
+                        <p class="description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur ex sit amet massa scelerisque scelerisque. Aliquam erat volutpat. Aenean interdum finibus efficitur. Praesent dapibus dolor felis, eu ultrices elit molestie.
+                        </p>
                     </div>
-                    <a href="#" class="btn btn-primary mt-3 pricing-card-btn">Subscribe</a>
                 </div>
-                <div class="pricing-card">
-                    <div class="pricing-card-header">
-                        <img class="pricing-card-icon" src="assets/imgs/shipped.svg"
-                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
-                    </div>
-                    <div class="pricing-card-body">
-                        <h6 class="pricing-card-title">Basic</h6>
-                        <div class="pricing-card-list">
-                            <p>accusamus reprehenderit</p>
-                            <p>provident dolorem </p>
-                            <p>quos neque</p>
-                            <p>fugiat quibusdam</p>
-                            <p>accusamus laboriosam</p>
-                            <p><i class="ti-close"></i></p>
+
+                <div class="timeline">
+                    <div class="icon"></div>
+                    <div class="date-content">
+                        <div class="date-outer">
+                            <span class="date">
+                                    <span class="month">1 Year</span>
+                            <span class="year">2022</span>
+                            </span>
                         </div>
                     </div>
-                    <div class="pricing-card-footer">
-                        <span>$</span>
-                        <span>9.99/Month</span>
+                    <div class="timeline-content">
+                        <h5 class="title mb-1">Admin &amp; IT Support</h5>
+                        <dl class="mb-1">
+                            <dt class="mb-1"><a href="https://ctu.edu.mm" target="_blank">Chindwin Technological University </a><span style="font-weight: 400;">May 2022 - Jul 2023</span></dt>
+                        </dl>
+                        <p class="description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur ex sit amet massa scelerisque scelerisque. Aliquam erat volutpat. Aenean interdum finibus efficitur. Praesent dapibus dolor felis, eu ultrices elit molestie.
+                        </p>
                     </div>
-                    <a href="#" class="btn btn-primary mt-3 pricing-card-btn">Subscribe</a>
                 </div>
-                <div class="pricing-card">
-                    <div class="pricing-card-header">
-                        <img class="pricing-card-icon" src="assets/imgs/startup.svg"
-                            alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
-                    </div>
-                    <div class="pricing-card-body">
-                        <h6 class="pricing-card-title">Premium</h6>
-                        <div class="pricing-card-list">
-                            <p>accusamus reprehenderit</p>
-                            <p>provident dolorem </p>
-                            <p>quos neque</p>
-                            <p>fugiat quibusdam</p>
-                            <p>accusamus laboriosam</p>
-                            <p>inventore omnis</p>
+
+                <div class="timeline">
+                    <div class="icon"></div>
+                    <div class="date-content">
+                        <div class="date-outer">
+                            <span class="date">
+                                    <span class="month">5 Years</span>
+                            <span class="year">2016</span>
+                            </span>
                         </div>
                     </div>
-                    <div class="pricing-card-footer">
-                        <span>$</span>
-                        <span>99.9/Month</span>
+                    <div class="timeline-content">
+                        <h5 class="title mb-1">Senior Software Engineer</h5>
+                        <dl class="mb-1">
+                            <dt class="mb-1"><a href="https://www.solvecase.com" target="_blank">SolveCase </a><span style="font-weight: 400;">Jan 2016 - Dec 2021</span></dt>
+                        </dl>
+                        <p class="description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur ex sit amet massa scelerisque scelerisque. Aliquam erat volutpat. Aenean interdum finibus efficitur. Praesent dapibus dolor felis, eu ultrices elit molestie.
+                        </p>
                     </div>
-                    <a href="#" class="btn btn-primary mt-3 pricing-card-btn">Subscribe</a>
                 </div>
 
-            </div><!-- end of pricing wrapper -->
-        </div> <!-- end of container -->
-    </section><!-- end of pricing section -->
-
-    <!-- section -->
-    <section class="section-sm bg-primary">
-        <!-- container -->
-        <div class="container text-center text-sm-left">
-            <!-- row -->
-            <div class="row align-items-center">
-                <div class="col-sm offset-md-1 mb-4 mb-md-0">
-                    <h6 class="title text-light">Want to work with me?</h6>
-                    <p class="m-0 text-light">Always feel Free to Contact & Hire me</p>
+                <div class="timeline">
+                    <div class="icon"></div>
+                    <div class="date-content">
+                        <div class="date-outer">
+                            <span class="date">
+                                <span class="month">1 Year</span>
+                            <span class="year">2014</span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="timeline-content">
+                        <h5 class="title mb-1">Junior Software Engineer</h5>
+                        <dl class="mb-1">
+                            <dt class="mb-1"><a href="https://www.solvecase.com" target="_blank">SolveCase </a><span style="font-weight: 400;">Mar 2014 - Dec 2015</span></dt>
+                        </dl>
+                        <p class="description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur ex sit amet massa scelerisque scelerisque. Aliquam erat volutpat. Aenean interdum finibus efficitur. Praesent dapibus dolor felis, eu ultrices elit molestie.
+                        </p>
+                    </div>
                 </div>
-                <div class="col-sm offset-sm-2 offset-md-3">
-                    <button class="btn btn-lg my-font btn-light rounded">Hire Me</button>
-                </div>
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </section> <!-- end of section -->
 
-    <!-- testimonial section -->
-    <section class="section" id="testmonial">
+            </div>
+        </div>
+    </section> -->
+
+    <!-- experience section 
+    <section class="section" id="experience">
         <div class="container text-center">
             <p class="section-subtitle">What Think Client About Me ?</p>
-            <h6 class="section-title mb-6">Testmonial</h6>
+            <h6 class="section-title mb-6">Experience</h6>
 
-            <!-- row -->
             <div class="row">
-                <div class="col-md-6">
-                    <div class="testimonial-card">
-                        <div class="testimonial-card-img-holder">
-                            <img src="assets/imgs/avatar2.jpg" class="testimonial-card-img"
-                                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                <div class="col-md-12">
+                    <div class="main-timeline">
+                        <div class="timeline">
+                            <div class="timeline-icon">
+                                <a href="https://www.haulio.io" target="_blank">
+                                    <img src="assets/imgs/haulio_logo.jpg" style="width: 100px; border-radius: 50px;"/>
+                                </a>
+                            </div>
+                            <div class="timeline-content">
+                                <h3 class="title">Full Stack Developer - Remote</h3>
+                                <dd>Jul 2023 - Present</dd>
+                                <p class="description">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate ducimus officiis quod! Aperiam eveniet nam nostrum odit quasi ullam voluptatum.
+                                </p>
+                            </div>
                         </div>
-                        <div class="testimonial-card-body">
-                            <p class="testimonial-card-subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing
-                                elit. Eaque doloribus autem aperiam earum nostrum omnis blanditiis corporis perspiciatis
-                                adipisci nihil.</p>
-                            <h6 class="testimonial-card-title">Emily Reb</h6>
+                        <div class="timeline">
+                            <div class="timeline-icon">
+                                <a href="https://ctu.edu.mm" target="_blank">
+                                    <img src="assets/imgs/ctu.jpg" style="width: 100px; border-radius: 50px;"/>
+                                </a>
+                            </div>
+                            <div class="timeline-content">
+                                <h3 class="title">Admin &amp; IT Support</h3>
+                                <dd>May 2022 - Jul 2023</dd>
+                                <p class="description">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate ducimus officiis quod! Aperiam eveniet nam nostrum odit quasi ullam voluptatum.
+                                </p>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="testimonial-card">
-                        <div class="testimonial-card-img-holder">
-                            <img src="assets/imgs/avatar3.jpg" class="testimonial-card-img"
-                                alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                        <div class="timeline">
+                            <div class="timeline-icon">
+                                <a href="https://www.solvecase.com" target="_blank">
+                                    <img style="width: 90px;" src="assets/imgs/solvecase.png"/>
+                                </a>
+                            </div>
+                            <div class="timeline-content">
+                                <h3 class="title">Senior Software Engineer</h3>
+                                <dd>Jan 2016 - Dec 2021</dd>
+                                <p class="description">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate ducimus officiis quod! Aperiam eveniet nam nostrum odit quasi ullam voluptatum.
+                                </p>
+                            </div>
                         </div>
-                        <div class="testimonial-card-body">
-                            <p class="testimonial-card-subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing
-                                elit. Eaque doloribus autem aperiam earum nostrum omnis blanditiis corporis perspiciatis
-                                adipisci nihil.</p>
-                            <h6 class="testimonial-card-title">Emily Reb</h6>
+                        <div class="timeline">
+                            <div class="timeline-icon">
+                                <a href="https://www.solvecase.com" target="_blank">
+                                    <img style="width: 90px;" src="assets/imgs/solvecase.png"/>
+                                </a>
+                            </div>
+                            <div class="timeline-content">
+                                <h3 class="title">Junior Software Engineer</h3>
+                                <dd>Mar 2014 - Dec 2015</dd>
+                                <p class="description">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate ducimus officiis quod! Aperiam eveniet nam nostrum odit quasi ullam voluptatum.
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div> <!-- end of container -->
-    </section> <!-- end of testimonial section -->
+        </div>
+    </section>  -->  
 
-    <!-- blog section -->
-    <section class="section" id="blog">
+    <!-- projects section -->
+    <section class="section" id="projects">
         <!-- container -->
         <div class="container text-center">
-            <p class="section-subtitle">Recent Posts?</p>
-            <h6 class="section-title mb-6">Blog</h6>
+            <p class="section-subtitle">What I Did?</p>
+            <h6 class="section-title mb-5">Projects</h6>
             <!-- blog-wrapper -->
             <div class="blog-card">
-                <div class="blog-card-header">
+                <!-- <div class="blog-card-header">
                     <img src="assets/imgs/img-1.jpg" class="blog-card-img"
                         alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
-                </div>
+                </div> -->
                 <div class="blog-card-body">
-                    <h5 class="blog-card-title">Consectetur adipisicing elit</h6>
-
+                    <h5 class="blog-card-title">Haulage Management Platform</h6>
+                        <span class="badge badge-secondary">ASP.NET Core</span>
+                        <span class="badge badge-secondary">Angular</span>
+                        <span class="badge badge-secondary">MS SQL</span>
+                        <span class="badge badge-secondary">RESTful API</span>
                         <p class="blog-card-caption">
-                            <a href="#">By: Admin</a>
-                            <a href="#"><i class="ti-heart text-danger"></i> 234</a>
-                            <a href="#"><i class="ti-comment"></i> 123</a>
+                            Logistics platform that streamlines the management of haulage jobs, from receiving orders from customer, allocating to transportation company, driver assignment and job updates.
+                            <br/>
+                            <b>Main Responsibility:</b>
                         </p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet nesciunt qui sit velit
-                            delectus voluptates, repellat ipsum culpa id deleniti. Rerum debitis facilis accusantium
-                            neque numquam mollitia modi quasi distinctio.</p>
-
-                        <p><b>Necessitatibus nihil impedit! Ex nisi eveniet, dolor aliquid consequuntur repudiandae.</b>
-                        </p>
-                        <p>Magnam in repellat enim harum omnis aperiam! Explicabo illo, commodi, dolor blanditiis
-                            cupiditate harum nisi vero accusamus laudantium voluptatibus dolores quae obcaecati.</p>
-
-                        <a href="#" class="blog-card-link">Read more <i class="ti-angle-double-right"></i></a>
+                        <ul>
+                            <li>Design the components and interfaces of the platform</li>
+                            <li>Integrate software components into a fully functional software system</li>
+                            <li>Troubleshoot, debug and upgrade existing systems</li>
+                            <li>Write effective APIs to integrate seamlessly into the mobile and web applications</li>
+                        </ul>
                 </div>
             </div><!-- end of blog wrapper -->
 
-            <!-- blog-wrapper -->
             <div class="blog-card">
-                <div class="blog-card-header">
-                    <img src="assets/imgs/img-2.jpg" class="blog-card-img"
-                        alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
-                </div>
                 <div class="blog-card-body">
-                    <h5 class="blog-card-title">Explicabo illo</h6>
-
+                    <h5 class="blog-card-title">Online Fitness System</h6>
+                        <span class="badge badge-secondary">Laravel 8</span>
+                        <span class="badge badge-secondary">Vue.js 2</span>
+                        <span class="badge badge-secondary">MySQL 8</span>
+                        <span class="badge badge-secondary">RESTful API</span>
                         <p class="blog-card-caption">
-                            <a href="#">By: Admin</a>
-                            <a href="#"><i class="ti-heart text-danger"></i> 456</a>
-                            <a href="#"><i class="ti-comment"></i> 264</a>
+                            The system manages client booking, their training records, trainer appointments and promotions. Played a pivotal role in the development, encompassing both backend and frontend components with a team of 5 developers and engineers.
+                            <br/>
+                            <b>Main Responsibility:</b>
                         </p>
-
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit excepturi laborum enim,
-                            vitae ipsam atque eum, ad iusto consequuntur voluptas, esse doloribus. Perferendis porro
-                            quisquam vitae exercitationem aliquid, minus eos laborum repudiandae, cumque debitis iusto
-                            omnis praesentium? Laborum placeat sit adipisci illum tempore maxime, esse qui quae?
-                            Molestias excepturi corporis similique doloribus. Esse vitae earum architecto nulla non
-                            dolores illum at perspiciatis quod, et deleniti cupiditate reiciendis harum facere, delectus
-                            eum commodi soluta distinctio sit repudiandae possimus sunt. Ipsum, rem.</p>
-
-                        <a href="#" class="blog-card-link">Read more <i class="ti-angle-double-right"></i></a>
+                        <ul>
+                            <li>Analyze business requirements and design database structure</li>
+                            <li>Designed and implemented scalable backend architecture using Laravel</li>
+                            <li>Developed RESTful API endpoints for user registration, workout tracking, and progress monitoring</li>
+                            <li>Led frontend development, created responsive UI components and data visualization features for an engaging user interface</li>
+                            <li>Mentored junior developers and participated in code reviews</li>
+                            <li>Gathered user feedback for continuous improvement of the system</li>
+                            <li>Optimized APIs and database queries for efficient data retrieval and minimized latency</li>
+                        </ul>
                 </div>
-            </div><!-- end of blog wrapper -->
+            </div>
+
+            <div class="blog-card">
+                <div class="blog-card-body">
+                    <h5 class="blog-card-title">Accounting Module</h6>
+                        <span class="badge badge-secondary">Laravel 8</span>
+                        <span class="badge badge-secondary">Vue.js 2</span>
+                        <span class="badge badge-secondary">MySQL 8</span>
+                        <span class="badge badge-secondary">RESTful API</span>
+                        <p class="blog-card-caption">
+                            The module automates accounting process and control asset depreciations for existing e-commerce system. Contributed to the database design and API development of the application in a team of 4 developers.
+                            <br/>
+                            <b>Main Responsibility:</b>
+                        </p>
+                        <ul>
+                            <li>Collaborated closely with stakeholders and end-users, analysed business requirements and designed database structure</li>
+                            <li>Led the design and implementation of the backend functionality, ensuring efficient data storage, retrieval, and processing</li>
+                            <li>Conducted thorough testing of the API using Postman</li>
+                            <li>Collaborated closely with the frontend teams to integrate the API seamlessly into the mobile and web applications</li>
+                            <li>Optimized APIs and database queries for efficient data retrieval and minimized latency</li>
+                            <li>Demonstrated strong problem-solving skills and attention to detail in debugging and troubleshooting issues, ensuring timely resolution</li>
+                        </ul>
+                </div>
+            </div>
+
+            <div class="blog-card">
+                <div class="blog-card-body">
+                    <h5 class="blog-card-title">Inventory and Sales Management System</h6>
+                        <span class="badge badge-secondary">WPF 3</span>
+                        <span class="badge badge-secondary">MSSQL 2019</span>
+                        <span class="badge badge-secondary">Syncfusion</span>
+                        <p class="blog-card-caption">
+                            The system control inventory and sales with multi-branches, multi-warehouses, multi-currencies and accounting module for a client in retail, wholesale and manufacturing industry. Designed and implemented the system in a team of 5 developers and delivered it within the set timeline and budget.
+                            <br/>
+                            <b>Main Responsibility:</b>
+                        </p>
+                        <ul>
+                            <li>Analysed business requirements and designed database structure</li>
+                            <li>Architected application using MVVM pattern for maintainability and extensibility</li>
+                            <li>Utilized asynchronous programming techniques for a responsive user interface</li>
+                            <li>Integrated third-party libraries and frameworks, such as Syncfusion, to enhance UI components and improve user experience</li>
+                            <li>Actively participated in code reviews, providing constructive feedback to ensure adherence to coding standards, best practices, and maintainable codebase</li>
+                            <li>Write complex SQL queries and generate reports using SSRS service</li>
+                        </ul>
+                </div>
+            </div>
+
+            <div class="blog-card">
+                <div class="blog-card-body">
+                    <h5 class="blog-card-title">Human Resources Management System</h6>
+                        <span class="badge badge-secondary">C#</span>
+                        <span class="badge badge-secondary">.NET Framework 4.5.2</span>
+                        <span class="badge badge-secondary">MSSQL 2016</span>
+                        <p class="blog-card-caption">
+                            This comprehensive system reduces redundant workload for HR by automating attendance recording, salary calculations with custom bonuses and deductions and generating labour law compliance reports. Developed and delivered the system with a team of 4 developers.
+                            <br/>
+                            <b>Main Responsibility:</b>
+                        </p>
+                        <ul>
+                            <li>Collaborated closely with HR domain experts, stakeholders, and end-users to gather requirements and translate them into functional and technical specifications</li>
+                            <li>Implemented business logic and data access layers</li>
+                            <li>Designed normalized database schema for optimized performance and data integrity</li>
+                            <li>Integrated SSRS for custom reports and dashboards on HR metrics</li>
+                            <li>Gathered user feedback, stayed updated with industry trends for continuous improvement of the system</li>
+                        </ul>
+                </div>
+            </div>
+
+            <div class="blog-card">
+                <div class="blog-card-body">
+                    <h5 class="blog-card-title">Other Contributed Projects</h6>
+                        <p class="blog-card-caption">
+                            <b>General and Customized Point of Sales System</b> (C#, MSSQL 2008 R2)<br>
+                            <b>Restaurant Management System</b> (WPF 3, MSSQL 2016)<br>
+                            <b>Theme-Park Ticketing System</b> (C#, Entity Framework 6, MSSQL 2008 R2)<br>
+                            <b>Customer Service Management System</b> (C#, MSSQL 2008 R2)
+                            <br><br>
+                            <b>Check out my public repos at <a href="https://www.github.com/tharhtwe">GitHub</a></b>
+                        </p>
+                </div>
+            </div>
 
         </div><!-- end of container -->
     </section><!-- end of blog section -->
@@ -400,9 +541,17 @@
     <section class="section" id="contact">
         <div class="container text-center">
             <p class="section-subtitle">How can you communicate?</p>
-            <h6 class="section-title mb-5">Contact Me</h6>
-            <!-- contact form -->
-            <form action="" class="contact-form col-md-10 col-lg-8 m-auto">
+            <h6 class="section-title mb-4">Contact Me</h6>
+
+            <div class="footer" style="border: none;">
+                <div class="social-links text-center m-auto ml-sm-auto">
+                    <a href="https://www.linkedin.com/in/tharhtwe" target="_blank" class="link"><i class="ti-linkedin"></i></a>
+                    <a href="mailto:tharhtwe16492@gmail.com" class="link"><i class="ti-google"></i></a>
+                    <a href="https://www.github.com/tharhtwe" target="_blank" class="link"><i class="ti-github"></i></a>
+                </div>
+            </div>
+
+            <!-- <form action="" method="post" class="contact-form col-md-10 col-lg-8 m-auto">
                 <div class="form-row">
                     <div class="form-group col-sm-6">
                         <input type="text" size="50" class="form-control" placeholder="Your Name" required>
@@ -418,26 +567,39 @@
                         <input type="submit" value="Send Message" class="btn btn-outline-primary rounded">
                     </div>
                 </div>
-            </form><!-- end of contact form -->
-        </div><!-- end of container -->
-    </section><!-- end of contact section -->
+            </form> -->
+        </div>
+    </section>
 
+
+    <!-- section 
+    <section class="section-sm bg-primary" id="contact">
+        <div class="container text-center text-sm-left">
+            <div class="row align-items-center">
+                <div class="col-sm offset-md-1 mb-4 mb-md-0">
+                    <h6 class="title text-light">Want to work with me?</h6>
+                    <p class="m-0 text-light">Always feel Free to Contact & Hire me</p>
+                </div>
+                <div class="col-sm offset-sm-2 offset-md-3">
+                    <a class="btn btn-primary" href="https://www.linkedin/in/tharhtwe" role="button">Hire Me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+-->
     <!-- footer -->
     <div class="container">
         <footer class="footer">
-            <p class="mb-0">Copyright
-                <script>document.write(new Date().getFullYear())</script> &copy; <a
+            <p class="mb-0">Copyright 
+                <script>document.write(new Date().getFullYear())</script> &copy; and Powered By <a
                     href="http://www.devcrud.com">DevCRUD</a> Distribution <a
                     href="https://themewagon.com">ThemeWagon</a>
             </p>
-            <div class="social-links text-right m-auto ml-sm-auto">
-                <a href="javascript:void(0)" class="link"><i class="ti-facebook"></i></a>
-                <a href="javascript:void(0)" class="link"><i class="ti-twitter-alt"></i></a>
-                <a href="javascript:void(0)" class="link"><i class="ti-google"></i></a>
-                <a href="javascript:void(0)" class="link"><i class="ti-pinterest-alt"></i></a>
-                <a href="javascript:void(0)" class="link"><i class="ti-instagram"></i></a>
-                <a href="javascript:void(0)" class="link"><i class="ti-rss"></i></a>
-            </div>
+            <!-- <div class="social-links text-right m-auto ml-sm-auto">
+                <a href="https://www.linkedin.com/in/tharhtwe" target="_blank" class="link"><i class="ti-linkedin"></i></a>
+                <a href="mailto:tharhtwe16492@gmail.com" class="link"><i class="ti-google"></i></a>
+                <a href="https://www.github.com/tharhtwe" target="_blank" class="link"><i class="ti-github"></i></a>
+            </div> -->
         </footer>
     </div> <!-- end of page footer -->
 
